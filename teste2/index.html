@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <!--<audio src="musica/Lazy 30 minutes Chill Hip-Hop Lofi Beats to relax - study to.mp3" controls="true" loop="true" preload="auto" hidden="true" autoplay="true">
+
+    </audio> -->
+    
+
+    <!-- Further code here -->
+    
+    <div class="start-screen">
+        <form class="for">
+        <p class="quizgame">Quiz Game</p> 
+        </form>
+        <br>
+        <button id="start-button">Começar</button>
+        
+            
+        
+    </div>
+    <div id="display-container">
+        <div class="header">
+            <div class="number-of-count">
+                <span class="number-of-question"></span>
+            </div>
+            <div class="timer-div">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png"
+                    width="25px" />
+                <span class="time-left"></span>
+            </div>
+        </div>
+        <div id="container">
+            <!-- questions and options will be displayed here -->
+        </div>
+        <button id="next-button">Proximo</button>
+    </div>
+    <div class="score-container hide">
+        <div id="user-score"></div>
+        <button id="restart">Recomeçar</button>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
